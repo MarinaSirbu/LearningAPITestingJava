@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test preserve-order="true" name="D:/Programs/Java17/Projects/APITesting">
+        <groups>
+            <run>
+               <include name="RestAssured"></include>
+               <include name="HttpClient"></include>
+            </run>
+        </groups>
+       <packages>
+           <package name="HttpClient"></package>
+           <package name="RestAssured"></package>
+           <package name="RestAssured.misc"></package>
+       </packages>
+    </test>
+</suite>

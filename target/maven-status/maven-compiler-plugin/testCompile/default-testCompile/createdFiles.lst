@@ -1,0 +1,11 @@
+RestAssured\JsonReceiveData.class
+RestAssured\misc\TestSOAP.class
+RestAssured\TestDemoRestAPI.class
+RestAssured\JsonInputData.class
+RestAssured\misc\RestAssuredAPI.class
+RestAssured\TestPostJsonObject.class
+RestAssured\misc\RestAssuredAPI_BDD.class
+RestAssured\TestPostAndReceiveJavaObject.class
+HttpClient\TestRestAPI.class
+HttpClient\TestSoapAPI.class
+RestAssured\TestPostJavaObject.class

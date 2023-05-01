@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="mavenExecutorSetting">
+    <option name="defaultSettings">
+      <ExecutionSettings>
+        <option name="goals">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="threadCount" value="0" />
+        <option name="projectsToBuild">
+          <list>
+            <ProjectToBuild>
+              <option name="displayName" value="APITesting" />
+              <option name="mavenArtifact">
+                <MavenArtifact>
+                  <option name="groupId" value="org.example" />
+                  <option name="artifactId" value="APITesting" />
+                  <option name="version" value="1.0-SNAPSHOT" />
+                </MavenArtifact>
+              </option>
+              <option name="projectDictionary" value="$PROJECT_DIR$" />
+            </ProjectToBuild>
+          </list>
+        </option>
+        <option name="selectedProject">
+          <MavenArtifact>
+            <option name="groupId" value="org.example" />
+            <option name="artifactId" value="APITesting" />
+            <option name="version" value="1.0-SNAPSHOT" />
+          </MavenArtifact>
+        </option>
+        <option name="collapseModules">
+          <set>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="org.example" />
+              <option name="artifactId" value="APITesting" />
+            </MavenGroupAndArtifactKey>
+          </set>
+        </option>
+      </ExecutionSettings>
+    </option>
+    <option name="goalsHistory">
+      <History>
+        <option name="items">
+          <list>
+            <option value="test" />
+            <option value="test -Dgroups=RestAssured" />
+            <option value="test -Dgroups=&quot;RestAssured&quot;" />
+            <option value="test " />
+          </list>
+        </option>
+      </History>
+    </option>
+    <option name="visibleSettings">
+      <set>
+        <option value="PROFILES" />
+        <option value="OPTIONAL_JVM_OPTIONS" />
+        <option value="THREAD_COUNT" />
+        <option value="OFFLINE_MODE" />
+        <option value="ALWAYS_UPDATE_SNAPSHOT" />
+        <option value="SKIP_TESTS" />
+        <option value="FAVORITE" />
+      </set>
+    </option>
+    <option name="visibleSettingsNotInitYet" value="false" />
+    <option name="resultCommandLineChosenProject">
+      <MavenArtifact>
+        <option name="groupId" value="org.example" />
+        <option name="artifactId" value="APITesting" />
+        <option name="version" value="1.0-SNAPSHOT" />
+      </MavenArtifact>
+    </option>
+  </component>
+</project>

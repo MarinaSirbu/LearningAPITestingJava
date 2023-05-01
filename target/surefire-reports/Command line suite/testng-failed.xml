@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="RestAssured.TestPostJsonObject">
+        <methods>
+          <include name="postMethod"/>
+        </methods>
+      </class> <!-- RestAssured.TestPostJsonObject -->
+      <class name="RestAssured.TestPostAndReceiveJavaObject">
+        <methods>
+          <include name="postAndReceiveMethod"/>
+        </methods>
+      </class> <!-- RestAssured.TestPostAndReceiveJavaObject -->
+      <class name="RestAssured.TestPostJavaObject">
+        <methods>
+          <include name="postMethod"/>
+        </methods>
+      </class> <!-- RestAssured.TestPostJavaObject -->
+      <class name="HttpClient.TestRestAPI">
+        <methods>
+          <include name="postMethod"/>
+          <include name="getMethod"/>
+        </methods>
+      </class> <!-- HttpClient.TestRestAPI -->
+      <class name="RestAssured.TestDemoRestAPI">
+        <methods>
+          <include name="afterMethodAnnotation"/>
+          <include name="putMethod"/>
+          <include name="deleteMethod"/>
+          <include name="postMethodRandomIDAndDelete"/>
+          <include name="beforeMethodAnnotation"/>
+          <include name="getLastIdMethod"/>
+          <include name="postMethodFromFile"/>
+          <include name="getAllMethod"/>
+          <include name="postMethodRandomID"/>
+        </methods>
+      </class> <!-- RestAssured.TestDemoRestAPI -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
