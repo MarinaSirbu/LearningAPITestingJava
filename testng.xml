@@ -11,7 +11,7 @@
        <packages>
            <package name="HttpClient"></package>
            <package name="RestAssured"></package>
-           <package name="RestAssured.misc"></package>
+<!--           <package name="RestAssured.misc"></package>-->
        </packages>
     </test>
 </suite>
