@@ -4,8 +4,8 @@
     <test preserve-order="true" name="D:/Programs/Java17/Projects/APITesting">
         <groups>
             <run>
-<!--               <include name="RestAssured"></include>
-               <include name="HttpClient"></include>-->
+               <include name="RestAssured"></include>
+               <include name="HttpClient"></include>
             </run>
         </groups>
        <packages>
