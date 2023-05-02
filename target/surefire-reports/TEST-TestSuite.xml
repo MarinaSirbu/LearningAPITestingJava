@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="TestSuite" time="3.235" errors="0" skipped="0">
+<testsuite tests="15" failures="0" name="TestSuite" time="3.615" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,19 +63,19 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="HttpClient.TestRestAPI" name="getMethod" time="0.872"/>
-  <testcase classname="HttpClient.TestRestAPI" name="postMethod" time="0.032"/>
-  <testcase classname="HttpClient.TestSoapAPI" name="getMethod" time="0.7"/>
-  <testcase classname="RestAssured.misc.TestSOAP" name="getMethod" time="1"/>
-  <testcase classname="RestAssured.TestDemoRestAPI" name="postMethodRandomID" time="0.061"/>
-  <testcase classname="RestAssured.TestDemoRestAPI" name="postMethodFromFile" time="0.04"/>
-  <testcase classname="RestAssured.TestDemoRestAPI" name="postMethodFromFolder" time="0.077"/>
-  <testcase classname="RestAssured.TestDemoRestAPI" name="putMethod" time="0.071"/>
-  <testcase classname="RestAssured.TestDemoRestAPI" name="postMethodRandomIDAndDelete" time="0.068"/>
-  <testcase classname="RestAssured.TestDemoRestAPI" name="getAllMethod" time="0.086"/>
-  <testcase classname="RestAssured.TestDemoRestAPI" name="getLastIdMethod" time="0.043"/>
-  <testcase classname="RestAssured.TestDemoRestAPI" name="deleteMethod" time="0.035"/>
-  <testcase classname="RestAssured.TestPostAndReceiveJavaObject" name="postAndReceiveMethod" time="0.09"/>
-  <testcase classname="RestAssured.TestPostJavaObject" name="postMethod" time="0.028"/>
-  <testcase classname="RestAssured.TestPostJsonObject" name="postMethod" time="0.032"/>
+  <testcase classname="HttpClient.TestRestAPI" name="getMethod" time="0.865"/>
+  <testcase classname="HttpClient.TestRestAPI" name="postMethod" time="0.038"/>
+  <testcase classname="HttpClient.TestSoapAPI" name="getMethod" time="0.89"/>
+  <testcase classname="RestAssured.TestDemoRestAPI" name="postMethodRandomID" time="0.303"/>
+  <testcase classname="RestAssured.TestDemoRestAPI" name="postMethodFromFile" time="0.023"/>
+  <testcase classname="RestAssured.TestDemoRestAPI" name="postMethodFromFolder" time="0.091"/>
+  <testcase classname="RestAssured.TestDemoRestAPI" name="putMethod" time="0.068"/>
+  <testcase classname="RestAssured.TestDemoRestAPI" name="postMethodRandomIDAndDelete" time="0.073"/>
+  <testcase classname="RestAssured.TestDemoRestAPI" name="getAllMethod" time="0.076"/>
+  <testcase classname="RestAssured.TestDemoRestAPI" name="getLastIdMethod" time="0.036"/>
+  <testcase classname="RestAssured.TestDemoRestAPI" name="deleteMethod" time="0.025"/>
+  <testcase classname="RestAssured.TestPostAndReceiveJavaObject" name="postAndReceiveMethod" time="0.082"/>
+  <testcase classname="RestAssured.TestPostJavaObject" name="postMethod" time="0.03"/>
+  <testcase classname="RestAssured.TestPostJsonObject" name="postMethod" time="0.03"/>
+  <testcase classname="RestAssured.TestSOAP" name="getMethod" time="0.985"/>
 </testsuite>

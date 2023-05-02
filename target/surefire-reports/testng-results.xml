@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-02T02:35:10 EEST" name="Command line suite" finished-at="2023-05-02T02:35:14 EEST" duration-ms="3290">
+  <suite started-at="2023-05-02T11:06:04 EEST" name="Command line suite" finished-at="2023-05-02T11:06:08 EEST" duration-ms="3662">
     <groups>
       <group name="HttpClient">
         <method signature="TestRestAPI.getMethod()[pri:0, instance:HttpClient.TestRestAPI@6b0c2d26]" name="getMethod" class="HttpClient.TestRestAPI"/>
@@ -10,151 +10,151 @@
         <method signature="TestSoapAPI.getMethod()[pri:0, instance:HttpClient.TestSoapAPI@59717824]" name="getMethod" class="HttpClient.TestSoapAPI"/>
       </group> <!-- HttpClient -->
       <group name="RestAssured">
-        <method signature="TestDemoRestAPI.postMethodRandomID()[pri:1, instance:RestAssured.TestDemoRestAPI@646be2c3]" name="postMethodRandomID" class="RestAssured.TestDemoRestAPI"/>
-        <method signature="TestDemoRestAPI.postMethodFromFile()[pri:2, instance:RestAssured.TestDemoRestAPI@646be2c3]" name="postMethodFromFile" class="RestAssured.TestDemoRestAPI"/>
-        <method signature="TestDemoRestAPI.postMethodFromFolder()[pri:3, instance:RestAssured.TestDemoRestAPI@646be2c3]" name="postMethodFromFolder" class="RestAssured.TestDemoRestAPI"/>
-        <method signature="TestDemoRestAPI.putMethod()[pri:4, instance:RestAssured.TestDemoRestAPI@646be2c3]" name="putMethod" class="RestAssured.TestDemoRestAPI"/>
-        <method signature="TestDemoRestAPI.getAllMethod()[pri:6, instance:RestAssured.TestDemoRestAPI@646be2c3]" name="getAllMethod" class="RestAssured.TestDemoRestAPI"/>
-        <method signature="TestDemoRestAPI.getLastIdMethod()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" name="getLastIdMethod" class="RestAssured.TestDemoRestAPI"/>
-        <method signature="TestDemoRestAPI.deleteMethod()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" name="deleteMethod" class="RestAssured.TestDemoRestAPI"/>
-        <method signature="TestDemoRestAPI.postMethodRandomIDAndDelete()[pri:5, instance:RestAssured.TestDemoRestAPI@646be2c3]" name="postMethodRandomIDAndDelete" class="RestAssured.TestDemoRestAPI"/>
+        <method signature="TestDemoRestAPI.postMethodRandomID()[pri:1, instance:RestAssured.TestDemoRestAPI@3c0a50da]" name="postMethodRandomID" class="RestAssured.TestDemoRestAPI"/>
+        <method signature="TestDemoRestAPI.postMethodFromFile()[pri:2, instance:RestAssured.TestDemoRestAPI@3c0a50da]" name="postMethodFromFile" class="RestAssured.TestDemoRestAPI"/>
+        <method signature="TestDemoRestAPI.postMethodFromFolder()[pri:3, instance:RestAssured.TestDemoRestAPI@3c0a50da]" name="postMethodFromFolder" class="RestAssured.TestDemoRestAPI"/>
+        <method signature="TestDemoRestAPI.putMethod()[pri:4, instance:RestAssured.TestDemoRestAPI@3c0a50da]" name="putMethod" class="RestAssured.TestDemoRestAPI"/>
+        <method signature="TestDemoRestAPI.getAllMethod()[pri:6, instance:RestAssured.TestDemoRestAPI@3c0a50da]" name="getAllMethod" class="RestAssured.TestDemoRestAPI"/>
+        <method signature="TestDemoRestAPI.getLastIdMethod()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" name="getLastIdMethod" class="RestAssured.TestDemoRestAPI"/>
+        <method signature="TestDemoRestAPI.deleteMethod()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" name="deleteMethod" class="RestAssured.TestDemoRestAPI"/>
+        <method signature="TestDemoRestAPI.postMethodRandomIDAndDelete()[pri:5, instance:RestAssured.TestDemoRestAPI@3c0a50da]" name="postMethodRandomIDAndDelete" class="RestAssured.TestDemoRestAPI"/>
       </group> <!-- RestAssured -->
     </groups>
-    <test started-at="2023-05-02T02:35:10 EEST" name="Command line test" finished-at="2023-05-02T02:35:14 EEST" duration-ms="3290">
+    <test started-at="2023-05-02T11:06:04 EEST" name="Command line test" finished-at="2023-05-02T11:06:08 EEST" duration-ms="3662">
       <class name="RestAssured.TestPostJavaObject">
-        <test-method signature="postMethod()[pri:0, instance:RestAssured.TestPostJavaObject@51931956]" started-at="2023-05-02T02:35:14 EEST" name="postMethod" finished-at="2023-05-02T02:35:14 EEST" duration-ms="27" status="PASS">
+        <test-method signature="postMethod()[pri:0, instance:RestAssured.TestPostJavaObject@971d0d8]" started-at="2023-05-02T11:06:07 EEST" name="postMethod" finished-at="2023-05-02T11:06:07 EEST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
       </class> <!-- RestAssured.TestPostJavaObject -->
       <class name="RestAssured.TestDemoRestAPI">
-        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:06 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T11:06:06 EEST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodAnnotation -->
-        <test-method signature="postMethodRandomID()[pri:1, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="postMethodRandomID" finished-at="2023-05-02T02:35:13 EEST" duration-ms="61" status="PASS">
+        <test-method signature="postMethodRandomID()[pri:1, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:06 EEST" name="postMethodRandomID" finished-at="2023-05-02T11:06:07 EEST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethodRandomID -->
-        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
-        <test-method signature="postMethodFromFile()[pri:2, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="postMethodFromFile" finished-at="2023-05-02T02:35:13 EEST" duration-ms="41" status="PASS">
+        <test-method signature="postMethodFromFile()[pri:2, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="postMethodFromFile" finished-at="2023-05-02T11:06:07 EEST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethodFromFile -->
-        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodAnnotation -->
-        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
-        <test-method signature="postMethodFromFolder()[pri:3, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="postMethodFromFolder" finished-at="2023-05-02T02:35:13 EEST" duration-ms="78" status="PASS">
+        <test-method signature="postMethodFromFolder()[pri:3, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="postMethodFromFolder" finished-at="2023-05-02T11:06:07 EEST" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethodFromFolder -->
-        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodAnnotation -->
-        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
-        <test-method signature="putMethod()[pri:4, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="putMethod" finished-at="2023-05-02T02:35:13 EEST" duration-ms="70" status="PASS">
+        <test-method signature="putMethod()[pri:4, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="putMethod" finished-at="2023-05-02T11:06:07 EEST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putMethod -->
-        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodAnnotation -->
-        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodAnnotation -->
-        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
-        <test-method signature="postMethodRandomIDAndDelete()[pri:5, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="postMethodRandomIDAndDelete" finished-at="2023-05-02T02:35:13 EEST" duration-ms="67" status="PASS">
+        <test-method signature="postMethodRandomIDAndDelete()[pri:5, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="postMethodRandomIDAndDelete" finished-at="2023-05-02T11:06:07 EEST" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethodRandomIDAndDelete -->
-        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
-        <test-method signature="getAllMethod()[pri:6, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="getAllMethod" finished-at="2023-05-02T02:35:13 EEST" duration-ms="86" status="PASS">
+        <test-method signature="getAllMethod()[pri:6, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="getAllMethod" finished-at="2023-05-02T11:06:07 EEST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllMethod -->
-        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodAnnotation -->
-        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
-        <test-method signature="getLastIdMethod()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="getLastIdMethod" finished-at="2023-05-02T02:35:13 EEST" depends-on-methods="RestAssured.TestDemoRestAPI.getAllMethod" duration-ms="43" status="PASS">
+        <test-method signature="getLastIdMethod()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="getLastIdMethod" finished-at="2023-05-02T11:06:07 EEST" depends-on-methods="RestAssured.TestDemoRestAPI.getAllMethod" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLastIdMethod -->
-        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodAnnotation -->
-        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T02:35:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
-        <test-method signature="deleteMethod()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:13 EEST" name="deleteMethod" finished-at="2023-05-02T02:35:14 EEST" depends-on-methods="RestAssured.TestDemoRestAPI.getLastIdMethod" duration-ms="34" status="PASS">
+        <test-method signature="deleteMethod()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="deleteMethod" finished-at="2023-05-02T11:06:07 EEST" depends-on-methods="RestAssured.TestDemoRestAPI.getLastIdMethod" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMethod -->
-        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@646be2c3]" started-at="2023-05-02T02:35:14 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T02:35:14 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="beforeMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method is-config="true" signature="afterMethodAnnotation()[pri:0, instance:RestAssured.TestDemoRestAPI@3c0a50da]" started-at="2023-05-02T11:06:07 EEST" name="afterMethodAnnotation" finished-at="2023-05-02T11:06:07 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
       </class> <!-- RestAssured.TestDemoRestAPI -->
       <class name="HttpClient.TestRestAPI">
-        <test-method signature="getMethod()[pri:0, instance:HttpClient.TestRestAPI@6b0c2d26]" started-at="2023-05-02T02:35:10 EEST" name="getMethod" finished-at="2023-05-02T02:35:11 EEST" duration-ms="871" status="PASS">
+        <test-method signature="getMethod()[pri:0, instance:HttpClient.TestRestAPI@6b0c2d26]" started-at="2023-05-02T11:06:04 EEST" name="getMethod" finished-at="2023-05-02T11:06:05 EEST" duration-ms="863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethod -->
-        <test-method signature="postMethod()[pri:0, instance:HttpClient.TestRestAPI@6b0c2d26]" started-at="2023-05-02T02:35:11 EEST" name="postMethod" finished-at="2023-05-02T02:35:11 EEST" duration-ms="31" status="PASS">
+        <test-method signature="postMethod()[pri:0, instance:HttpClient.TestRestAPI@6b0c2d26]" started-at="2023-05-02T11:06:05 EEST" name="postMethod" finished-at="2023-05-02T11:06:05 EEST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
       </class> <!-- HttpClient.TestRestAPI -->
-      <class name="RestAssured.misc.TestSOAP">
-        <test-method signature="getMethod()[pri:0, instance:RestAssured.misc.TestSOAP@146044d7]" started-at="2023-05-02T02:35:12 EEST" name="getMethod" finished-at="2023-05-02T02:35:13 EEST" duration-ms="1000" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getMethod -->
-      </class> <!-- RestAssured.misc.TestSOAP -->
       <class name="HttpClient.TestSoapAPI">
-        <test-method signature="getMethod()[pri:0, instance:HttpClient.TestSoapAPI@59717824]" started-at="2023-05-02T02:35:11 EEST" name="getMethod" finished-at="2023-05-02T02:35:12 EEST" duration-ms="700" status="PASS">
+        <test-method signature="getMethod()[pri:0, instance:HttpClient.TestSoapAPI@59717824]" started-at="2023-05-02T11:06:05 EEST" name="getMethod" finished-at="2023-05-02T11:06:06 EEST" duration-ms="890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethod -->
       </class> <!-- HttpClient.TestSoapAPI -->
+      <class name="RestAssured.TestSOAP">
+        <test-method signature="getMethod()[pri:0, instance:RestAssured.TestSOAP@2b4a2ec7]" started-at="2023-05-02T11:06:07 EEST" name="getMethod" finished-at="2023-05-02T11:06:08 EEST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- RestAssured.TestSOAP -->
       <class name="RestAssured.TestPostJsonObject">
-        <test-method signature="postMethod()[pri:0, instance:RestAssured.TestPostJsonObject@2b4a2ec7]" started-at="2023-05-02T02:35:14 EEST" name="postMethod" finished-at="2023-05-02T02:35:14 EEST" duration-ms="32" status="PASS">
+        <test-method signature="postMethod()[pri:0, instance:RestAssured.TestPostJsonObject@51931956]" started-at="2023-05-02T11:06:07 EEST" name="postMethod" finished-at="2023-05-02T11:06:07 EEST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
       </class> <!-- RestAssured.TestPostJsonObject -->
       <class name="RestAssured.TestPostAndReceiveJavaObject">
-        <test-method signature="postAndReceiveMethod()[pri:0, instance:RestAssured.TestPostAndReceiveJavaObject@971d0d8]" started-at="2023-05-02T02:35:14 EEST" name="postAndReceiveMethod" finished-at="2023-05-02T02:35:14 EEST" duration-ms="92" status="PASS">
+        <test-method signature="postAndReceiveMethod()[pri:0, instance:RestAssured.TestPostAndReceiveJavaObject@176d53b2]" started-at="2023-05-02T11:06:07 EEST" name="postAndReceiveMethod" finished-at="2023-05-02T11:06:07 EEST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postAndReceiveMethod -->

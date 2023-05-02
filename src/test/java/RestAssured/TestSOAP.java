@@ -1,4 +1,4 @@
-package RestAssured.misc;
+package RestAssured;
 
 import io.restassured.RestAssured;
 import io.restassured.path.xml.XmlPath;
